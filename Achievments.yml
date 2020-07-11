@@ -1,8 +1,8 @@
 DistanceFoot:
-  3000:
-    Goal: Travel 3000 Blocks on Land, using your feet.
-    Message: You have gone 3000 blocks on foot. Good leg workout.
-    Name: distancefoot_3000
+  30000:
+    Goal: Travel 30000 Blocks on Land, using your feet.
+    Message: You have gone 30000 blocks on foot. Good leg workout.
+    Name: distancefoot_30000
     DisplayName: Nomad
     Reward:
       Execute: /nnick &bNomad
@@ -20,10 +20,10 @@ DistancePig:
     DisplayName: SirPigsAL§mittle§rot
 PlayedTime:
     1:
-        Goal: Play on the Sorbet for an hour.
-        Message: First 60 minutes!
-        Name: playedtime_1
-        DisplayName: A whole lot ahead of you.
+      Goal: Play on the Sorbet for an hour.
+      Message: First 60 minutes!
+      Name: playedtime_1
+      DisplayName: A whole lot ahead of you.
   500:
     Goal: Play on the Sorbet for 500 hours.
     Message: You have a serious Minecraft addiction.
@@ -65,6 +65,12 @@ EnderPearls:
     Name: enderpearls_1000
     DisplayName: Enderman imposter
 Kills:
+  wolf:
+    1:
+      Goal: Kill a wolf
+      Message: You euthanized an innocent kanine
+      Name: kills_1_wolf
+      DisplayName: Makeshift Euthinization
   player:
     100:
       Goal: Kill 100 players
@@ -177,12 +183,12 @@ Deaths:
         Item: bone 1 "Human Bone"
 PetMasterGive:
   1:
-    Goal: Give 1 pet to another human on the Sorbet. Or pig. Or derpy onion.
+    Goal: Give 1 pet to another human on the Sorbet. Or pig. Or derpy onion. Or the deity
     Message: Goodbye, old friend.
     Name: petmastergive_1
     DisplayName: Betrayal
     Reward:
-      Execute: /give PLAYER cooked_beef 1 {Lore:[{"color", "green", "A Treat For your Dog..."}, {"color", "dark_red", "Oh, wait"}]}
+      Execute: /give PLAYER cooked_beef 1 {Lore:[{"color", "green", "A Treat For your only friend..."}, {"color", "dark_red", "Oh, wait"}]}
 ItemDrops:
   5000:
     Goal: Drop 5000 items.
