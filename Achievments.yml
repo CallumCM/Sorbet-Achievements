@@ -71,6 +71,8 @@ Kills:
       Message: You euthanized an innocent kanine
       Name: kills_1_wolf
       DisplayName: Makeshift Euthinization
+      Reward:
+        Execute: give PLAYER skull 1 {SkullOwner:{Id:"13cdf95c-a9af-4f07-90ec-e62193fb2df4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYxZmI5ZjUzNjliYjdjNjRmMWFmYzRjYTQ0MTkwNWM1NzUzYTAzOWUxZGUzZGRlNGM5NTFhNjlkNTRmNjhmMiJ9fX0="}, display:{Lore:[{"color", "dark_red", "You euthanized your faithful companion more quickly than any test subject on record. Congratulations."}]}}
   player:
     100:
       Goal: Kill 100 players
