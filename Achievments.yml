@@ -4,6 +4,8 @@ DistanceFoot:
     Message: You have gone 3000 blocks on foot. Good leg workout.
     Name: distancefoot_3000
     DisplayName: Nomad
+    Reward:
+      Execute: /nnick &bNomad
 DistanceGliding:
   10000:
     Goal: Fly 10,000 blocks with an elytra.
@@ -70,7 +72,7 @@ Kills:
       Name: kills_100_players
       DisplayName: Serial Killer
       Reward:
-        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"color", "dark_red", "The souls of 100 people brutally massacred"}]}}
+        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"color", "dark_red", "The souls of 100 people viciously massacred"}]}}
   specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
     1:
       Goal: Kill your god
@@ -164,7 +166,7 @@ Connections:
     Goal: Connect 10 times
     Message: Getting the hang of your new life?
     Name: connect_10
-    DisplayName: Congrats!
+    DisplayName: 10th connection!
 Deaths:
   100:
     Goal: You have to Die. 100 times
