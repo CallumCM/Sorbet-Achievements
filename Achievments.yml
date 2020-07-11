@@ -1,0 +1,190 @@
+DistanceFoot:
+  3000:
+    Goal: Travel 3000 Blocks on Land, using your feet.
+    Message: You have gone 3000 blocks on foot. Good leg workout.
+    Name: distancefoot_3000
+    DisplayName: Nomad
+DistanceGliding:
+  10000:
+    Goal: Fly 10,000 blocks with an elytra.
+    Message: You traveled 10,000 blocks in style!
+    Name: distancegliding_10000
+    DisplayName: Graceful Glider
+DistancePig:
+  2500:
+    Goal: Travel 2500 Blocks with a pig.
+    Message: Perservering Pig.
+    Name: distancepig_2500
+    DisplayName: SirPigsAL§mittle§rot
+PlayedTime:
+    1:
+        Goal: Play on the Sorbet for an hour.
+        Message: First 60 minutes!
+        Name: playedtime_1
+        DisplayName: A whole lot ahead of you.
+  500:
+    Goal: Play on the Sorbet for 500 hours.
+    Message: You have a serious Minecraft addiction.
+    Name: playedtime_500
+    DisplayName: Minecraft = Life
+Smelting:
+  1000:
+    Goal: Smelt 1,000 items.
+    Message: You have smelted 1,000 items. Make sure you are using renewable fuel!
+    Name: smeltitems_1000
+    DisplayName: Super Smelter
+    Reward:
+      Command:
+        Execute: give PLAYER lime_wool 3 {display:{Lore:[{"color","green","text":"Environmentally Friendly Fuel!"}]}}
+  50000:
+    Goal: Smelt 50,000 items.
+    Message: You have smelted 50,000 items. Make sure you are using renewable fuel!
+    Name: smeltitems_250
+    DisplayName: Super Smelter
+    Reward:
+      Command:
+        Execute: give PLAYER blaze_rod 1 {display:{Lore:[{"color","green","text":"Environmentally Friendly Fuel!"}]}}
+MusicDiscs:
+  3:
+    Goal: Use 3 different music discs in a jukebox.
+    Message: Get that groove on!
+    Name: musicdiscs_3
+    DisplayName: §1DJ
+Fertilising:
+  5000:
+    Goal: Use bonemeal 5,000 times.
+    Message: Supposedly made from §7skeleton§r bones...
+    Name: fertilising_5000
+    DisplayName: Green Thumb
+EnderPearls:
+  1000:
+    Goal: Teleport with an ender pearl 1000 times.
+    Message: Part human, part enderman!
+    Name: enderpearls_1000
+    DisplayName: Enderman imposter
+Kills:
+  player:
+    100:
+      Goal: Kill 100 players
+      Message: 100 lives. Slain
+      Name: kills_100_players
+      DisplayName: Serial Killer
+      Reward:
+        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"color", "dark_red", "The souls of 100 people brutally murdered"}]}}
+  specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
+    1:
+      Goal: Kill the owner of the Sorbet.
+      Message: Well... Umm...
+      Name: kills_1_alexander3847575
+      DisplayName:  Assassin - Alexander3847575
+  specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
+    10:
+      Goal: Kill the owner of the Sorbet. 10 times
+      Message: This is getting out of hand
+      Name: kills_10_alexander3847575s
+      DisplayName:  Grim Reaper - Alexander3847575
+  specificplayer-48be3c73-b59a-47fc-a99b-a31a31632dee:
+    1:
+      Goal: Kill the owner of the pig farm.
+      Message: He doesn't even drop pork!
+      Name: kills_1_sirpigsalittle
+      DisplayName:  Assassin - SirPigsALittle
+    10:
+      Goal: Kill the owner of the pig farm. 10 times
+      Message: Seriously, he's not going to drop any pork.
+      Name: kills_1_sirpigsalittle
+      DisplayName:  Grim Reaper - SirPigsALittle
+  specificplayer-fd07c94b-2542-4277-b630-a75ef751fff0:
+    1:
+      Goal: Kill the owner of the enchanting tower.
+      Message: He must have been letting you.
+      Name: kills_1_diamond_kit_87
+      DisplayName:  Assassin - Diamond_Kit_87
+    10:
+      Goal: Kill the owner of the enchanting tower. 10 times
+      Message: How much did you pay him?
+      Name: kills_10_diamond_kit_87s
+      DisplayName:  Grim Reaper - Diamond_Kit_87
+  specificplayer-a2f3b5df-afa3-4338-98d0-e730166f401d:
+    1:
+      Goal: Kill the owner of the redstone shop.
+      Message: You have just killed the extraordinary wizard, do you know what this means? I don't either.
+      Name: kills_1_blocksorceror
+      DisplayName:  Assassin - BlockSorceror
+    10:
+      Goal: Kill the owner of the redstone shop. 10 times
+      Message: Impressive dedication, but he'll just respawn again you know?
+      Name: kills_10_blocksorcerors
+      DisplayName:  Grim Reaper - BlockSorceror
+  specificplayer-44e80443-a0f5-48ab-9343-262dfe4e161d:
+    1:
+      Goal: Kill the owner of the restaurant.
+      Message: You have just killed the chef. Bravo.
+      Name: kills_1_urrazyedis
+      DisplayName:  Assassin - urrazyedis
+    10:
+      Goal: Kill the owner of the restaurant. 10 times
+      Message: You know, I wrote this achievment?
+      Name: kills_10_urrazyedis
+      DisplayName:  Grim Reaper - urrazyedis
+  specificplayer-52ea9354-99ed-4b06-bec2-331e7c0f6f57:
+    1:
+      Goal: Kill ilmango.
+      Message: So, mhm, you got ilmango to join? AND he let you kill him?
+      Name: kills_1_ilmango
+      DisplayName:  Assassin - ilmango
+      Reward:
+        Execute: give PLAYER barrier 1 "ilmango's soul"
+Places:
+  chest:
+    500:
+      Goal: Place 500 chests
+      Message: Gotta stay organized.
+      Name: place_500_chests
+      DisplayName: Organized.
+    5000:
+      Goal: Place 5,000 chests
+      Message: Gotta stay really organized.
+      Name: place_5000_chests
+      DisplayName: Really Organized.
+    50000:
+      Goal: Place 50,000 chests
+      Message: Gotta stay REALLY organized.
+      Name: place_50000_chests
+      DisplayName: REALLY Organized.
+    500000:
+      Goal: Place 500,000 chests
+      Message: That's a little overkill
+      Name: place_500000_chests
+      DisplayName: A heck of a lot of chests.
+      Reward:
+        Execute: /give PLAYER diamond_axe 1 {display:{Name:'{"text":"Cleanup"}', Lore:[{"color", "light_gray", "Energizing V"}]}}
+Connections:
+  10:
+    Message: You connected to our server for the tenth time!
+    Name: connect_10
+    DisplayName: Congrats!
+Deaths:
+  100:
+    Goal: You have to Die. 100 times
+    Message: Woohoo! Died 100 times!
+    Name: deaths_100
+    DisplayName: Rest in Pieces
+    Reward:
+        Item: bone 1 "Human Bone"
+PetMasterGive:
+  1:
+    Goal: Give 1 pet to friends.
+    Message: Goodbye, old friend.
+    Name: petmastergive_1
+    DisplayName: Christmas Means Giving
+    Reward:
+      Execute: /give PLAYER cooked_beef 1 {Lore:[{"color", "green", "A Treat For your Dog..."}, {"color", "dark_red", "Oh, wait"}]}
+ItemDrops:
+  5000:
+    Goal: Drop 5000 items.
+    Message: You are eventually going to lose your stuff if you keep dropping it, you know?
+    Name: itemdrops_5000
+    DisplayName: The Dropper
+    Reward:
+      Execute: /give PLAYER gold_ingot 1 {PickupDelay:32767, Age:-32768, display:{Name:'{"text":"Butterfingers"}', Lore:[{"Don't let this slip out of your hands"}]}} 
