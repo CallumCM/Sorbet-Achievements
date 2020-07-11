@@ -70,16 +70,16 @@ Kills:
       Name: kills_100_players
       DisplayName: Serial Killer
       Reward:
-        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"color", "dark_red", "The souls of 100 people brutally murdered"}]}}
+        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"color", "dark_red", "The souls of 100 people brutally massacred"}]}}
   specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
     1:
-      Goal: Kill the owner of the Sorbet.
+      Goal: Kill your god
       Message: Well... Umm...
       Name: kills_1_alexander3847575
       DisplayName:  Assassin - Alexander3847575
   specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
     10:
-      Goal: Kill the owner of the Sorbet. 10 times
+      Goal: Kill the owner of your life. 10 times
       Message: This is getting out of hand
       Name: kills_10_alexander3847575s
       DisplayName:  Grim Reaper - Alexander3847575
@@ -126,7 +126,7 @@ Kills:
       Goal: Kill the owner of the restaurant. 10 times
       Message: You know, I wrote this achievment?
       Name: kills_10_urrazyedis
-      DisplayName:  Grim Reaper - urrazyedis
+      DisplayName:  Chopping Onions
   specificplayer-52ea9354-99ed-4b06-bec2-331e7c0f6f57:
     1:
       Goal: Kill ilmango.
@@ -161,7 +161,8 @@ Places:
         Execute: /give PLAYER diamond_axe 1 {display:{Name:'{"text":"Cleanup"}', Lore:[{"color", "light_gray", "Energizing V"}]}}
 Connections:
   10:
-    Message: You connected to our server for the tenth time!
+    Goal: Connect 10 times
+    Message: Getting the hang of your new life?
     Name: connect_10
     DisplayName: Congrats!
 Deaths:
@@ -169,15 +170,15 @@ Deaths:
     Goal: You have to Die. 100 times
     Message: Woohoo! Died 100 times!
     Name: deaths_100
-    DisplayName: Rest in Pieces
+    DisplayName: Suicidalist
     Reward:
         Item: bone 1 "Human Bone"
 PetMasterGive:
   1:
-    Goal: Give 1 pet to friends.
+    Goal: Give 1 pet to another human on the Sorbet. Or pig. Or derpy onion.
     Message: Goodbye, old friend.
     Name: petmastergive_1
-    DisplayName: Christmas Means Giving
+    DisplayName: Betrayal
     Reward:
       Execute: /give PLAYER cooked_beef 1 {Lore:[{"color", "green", "A Treat For your Dog..."}, {"color", "dark_red", "Oh, wait"}]}
 ItemDrops:
