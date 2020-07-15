@@ -37,7 +37,7 @@ Smelting:
     DisplayName: Super Smelter
     Reward:
       Command:
-        Execute: give PLAYER lime_wool 3 {display:{Lore:[{"color","green","text":"Environmentally Friendly Fuel!"}]}}
+        Execute: give PLAYER lime_wool 3 {display:{Lore:[{"text":"Environmentally Friendly Fuel!"}]}}
   50000:
     Goal: Smelt 50,000 items.
     Message: You have smelted 50,000 items. Make sure you are using renewable fuel!
@@ -45,7 +45,7 @@ Smelting:
     DisplayName: Super Smelter
     Reward:
       Command:
-        Execute: give PLAYER blaze_rod 1 {display:{Lore:[{"color","green","text":"Environmentally Friendly Fuel!"}]}}
+        Execute: give PLAYER blaze_rod 1 {display:{Lore:[{"text":"Environmentally Friendly Fuel!"}]}}
 MusicDiscs:
   3:
     Goal: Use 3 different music discs in a jukebox.
@@ -80,7 +80,7 @@ Kills:
       Name: kills_100_players
       DisplayName: Serial Killer
       Reward:
-        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"color", "dark_red", "The souls of 100 people viciously massacred"}]}}
+        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"The souls of 100 people viciously massacred"}]}}
   specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
     1:
       Goal: Kill your god
@@ -168,7 +168,7 @@ Places:
       Name: place_500000_chests
       DisplayName: A heck of a lot of chests.
       Reward:
-        Execute: /give PLAYER diamond_axe 1 {display:{Name:'{"text":"Cleanup"}', Lore:[{"color", "light_gray", "Energizing V"}]}}
+        Execute: /give PLAYER diamond_axe 1 {display:{Name:'{"text":"Cleanup"}', Lore:[{"Energizing V"}]}}
 Connections:
   10:
     Goal: Connect 10 times
