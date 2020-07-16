@@ -5,7 +5,7 @@ DistanceFoot:
     Name: distancefoot_30000
     DisplayName: Nomad
     Reward:
-      Execute: /nnick &bNomad
+      Execute: /nick PLAYER &bNomad
 DistanceGliding:
   10000:
     Goal: Fly 10,000 blocks with an elytra.
