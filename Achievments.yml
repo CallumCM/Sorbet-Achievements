@@ -37,7 +37,7 @@ Smelting:
     DisplayName: Super Smelter
     Reward:
       Command:
-        Execute: give PLAYER lime_wool 3 {display:{Lore:[{"text":"Environmentally Friendly Fuel!"}]}}
+        Execute: give PLAYER wool 1 5 {display:{Name:Woool,Lore:[Environmentally,friendly,fuel]}}
   50000:
     Goal: Smelt 50,000 items.
     Message: You have smelted 50,000 items. Make sure you are using renewable fuel!
@@ -45,7 +45,7 @@ Smelting:
     DisplayName: Super Smelter
     Reward:
       Command:
-        Execute: give PLAYER blaze_rod 1 {display:{Lore:[{"text":"Environmentally Friendly Fuel!"}]}}
+        Execute: give PLAYER blaze_rod 1 0 {display:{Name:Spicy,Lore:[Ultra,environmentally,friendly,fuel]}}
 MusicDiscs:
   3:
     Goal: Use 3 different music discs in a jukebox.
@@ -72,7 +72,8 @@ Kills:
       Name: kills_1_wolf
       DisplayName: Makeshift Euthinization
       Reward:
-        Execute: give PLAYER skull 1 {SkullOwner:{Id:"13cdf95c-a9af-4f07-90ec-e62193fb2df4",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYxZmI5ZjUzNjliYjdjNjRmMWFmYzRjYTQ0MTkwNWM1NzUzYTAzOWUxZGUzZGRlNGM5NTFhNjlkNTRmNjhmMiJ9fX0="}, display:{Lore:[{"color", "dark_red", "You euthanized your faithful companion more quickly than any test subject on record. Congratulations."}]}}
+        Execute: give PLAYER skull 1 3 {SkullOwner:"GLaD0S"}
+        Execute: say @a &lPLAYER euthinized their faithful compainion faster than any test subject on record. Congratulations.
   player:
     100:
       Goal: Kill 100 players
@@ -80,7 +81,7 @@ Kills:
       Name: kills_100_players
       DisplayName: Serial Killer
       Reward:
-        Execute: give PLAYER totem_of_undying 1 {display:{Lore:[{"The souls of 100 people viciously massacred"}]}}
+        Execute: give PLAYER totem_of_undying 1 0 {display:{Lore:["The souls of 100","people viciously","massacred..."]}}
   specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
     1:
       Goal: Kill your god
@@ -168,7 +169,7 @@ Places:
       Name: place_500000_chests
       DisplayName: A heck of a lot of chests.
       Reward:
-        Execute: /give PLAYER diamond_axe 1 {display:{Name:'{"text":"Cleanup"}', Lore:[{"Energizing V"}]}}
+        Execute: give PLAYER diamond_axe 1 0 {display:{Lore:["For The Cleanup"]}}
 Connections:
   10:
     Goal: Connect 10 times
@@ -190,12 +191,12 @@ PetMasterGive:
     Name: petmastergive_1
     DisplayName: Betrayal
     Reward:
-      Execute: /give PLAYER cooked_beef 1 {Lore:[{"color", "green", "A Treat For your only friend..."}, {"color", "dark_red", "Oh, wait"}]}
+      Execute: give PLAYER cooked_beef 1 0 {display:{Name:"Yummy Jerkey",Lore:["A treat for your only friend,","Oh, wait..."]},ench:[{}]}
 ItemDrops:
-  5000:
-    Goal: Drop 5000 items.
+  50000:
+    Goal: Drop 50,000 items.
     Message: You are eventually going to lose your stuff if you keep dropping it, you know?
-    Name: itemdrops_5000
+    Name: itemdrops_50000
     DisplayName: The Dropper
     Reward:
-      Execute: /give PLAYER gold_ingot 1 {PickupDelay:32767, Age:-32768, display:{Name:'{"text":"Butterfingers"}', Lore:[{"Don't let this slip out of your hands"}]}} 
+      Execute: give PLAYER emerald 1 0 {display:{Name:"Talisman of the Butterfinger",Lore:[Slippery]},HideFlags:2,AttributeModifiers:[{AttributeName:"generic.movementSpeed",Amount:0.7,Operation:0,UUIDLeast:204533800,UUIDMost:99,Name:"generic.movementSpeed"}]}
