@@ -3,7 +3,7 @@ DistanceFoot:
     Goal: Travel 30000 Blocks on Land, using your feet.
     Message: You have gone 30000 blocks on foot. Good leg workout.
     Name: distancefoot_30000
-    DisplayName: Nomad
+    DisplayName: Nomadic Lifestyle
     Reward:
       Execute: /nick PLAYER &bNomad
 DistanceGliding:
@@ -75,25 +75,25 @@ Kills:
         Execute: give PLAYER skull 1 3 {SkullOwner:"GLaD0S"}
         Execute: say @a &lPLAYER euthinized their faithful compainion faster than any test subject on record. Congratulations.
   player:
-    100:
-      Goal: Kill 100 players
-      Message: 100 lives. Slain
-      Name: kills_100_players
+    1000:
+      Goal: Kill 1,000 players
+      Message: 1,000 lives. Slain
+      Name: kills_1,000_players
       DisplayName: Serial Killer
       Reward:
-        Execute: give PLAYER totem_of_undying 1 0 {display:{Lore:["The souls of 100","people viciously","massacred..."]}}
+        Execute: give PLAYER totem_of_undying 1 0 {display:{Lore:["The souls of 1,000","people viciously","massacred..."]}}
   specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
     1:
       Goal: Kill your god
-      Message: Well... Umm...
+      Message: What Goes Down... Must Come Up
       Name: kills_1_alexander3847575
-      DisplayName:  Assassin - Alexander3847575
+      DisplayName: Godslayer
   specificplayer-93bfd6e0-6b49-4390-a979-3c4211a98440:
     10:
       Goal: Kill the owner of your life. 10 times
-      Message: This is getting out of hand
+      Message: 
       Name: kills_10_alexander3847575s
-      DisplayName:  Grim Reaper - Alexander3847575
+      DisplayName: Ragnarok
   specificplayer-48be3c73-b59a-47fc-a99b-a31a31632dee:
     1:
       Goal: Kill the owner of the pig farm.
@@ -102,42 +102,42 @@ Kills:
       DisplayName:  Assassin - SirPigsALittle
     10:
       Goal: Kill the owner of the pig farm. 10 times
-      Message: Seriously, he's not going to drop any pork.
+      Message: Fresh, Cheap, Porkchops
       Name: kills_1_sirpigsalittle
-      DisplayName:  Grim Reaper - SirPigsALittle
+      DisplayName: Porkchop Automation
   specificplayer-fd07c94b-2542-4277-b630-a75ef751fff0:
     1:
       Goal: Kill the owner of the enchanting tower.
       Message: He must have been letting you.
       Name: kills_1_diamond_kit_87
-      DisplayName:  Assassin - Diamond_Kit_87
+      DisplayName: Tax the Rich
     10:
-      Goal: Kill the owner of the enchanting tower. 10 times
+      Goal: Kill Sigby. 10 times
       Message: How much did you pay him?
       Name: kills_10_diamond_kit_87s
-      DisplayName:  Grim Reaper - Diamond_Kit_87
+      DisplayName: Distribution of Wealth
   specificplayer-a2f3b5df-afa3-4338-98d0-e730166f401d:
     1:
-      Goal: Kill the owner of the redstone shop.
-      Message: You have just killed the extraordinary wizard, do you know what this means? I don't either.
+      Goal: Kill the extra ordinary wizard.
+      Message: He's actually a wizard, you know.
       Name: kills_1_blocksorceror
-      DisplayName:  Assassin - BlockSorceror
+      DisplayName: Burn the Witch
     10:
-      Goal: Kill the owner of the redstone shop. 10 times
-      Message: Impressive dedication, but he'll just respawn again you know?
+      Goal: Kill the extra ordinary wizard. 10 times
+      Message: Scapegoating
       Name: kills_10_blocksorcerors
-      DisplayName:  Grim Reaper - BlockSorceror
+      DisplayName: An Exodus of Warlocks
   specificplayer-44e80443-a0f5-48ab-9343-262dfe4e161d:
     1:
       Goal: Kill the owner of the restaurant.
       Message: You have just killed the chef. Bravo.
       Name: kills_1_urrazyedis
-      DisplayName:  Assassin - urrazyedis
+      DisplayName: Cutting Onions
     10:
       Goal: Kill the owner of the restaurant. 10 times
       Message: You know, I wrote this achievment?
       Name: kills_10_urrazyedis
-      DisplayName:  Chopping Onions
+      DisplayName: Minced to Oblivion
   specificplayer-52ea9354-99ed-4b06-bec2-331e7c0f6f57:
     1:
       Goal: Kill ilmango.
@@ -199,4 +199,4 @@ ItemDrops:
     Name: itemdrops_50000
     DisplayName: The Dropper
     Reward:
-      Execute: give PLAYER emerald 1 0 {display:{Name:"Talisman of the Butterfinger",Lore:[Slippery]},HideFlags:2,AttributeModifiers:[{AttributeName:"generic.movementSpeed",Amount:0.7,Operation:0,UUIDLeast:204533800,UUIDMost:99,Name:"generic.movementSpeed"}]}
+      Execute: give PLAYER emerald 1 0 {display:{Name:"Talisman of the Butterfinger",Lore:["Slippery"]}}
