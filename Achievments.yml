@@ -5,7 +5,7 @@ DistanceFoot:
     Name: distancefoot_30000
     DisplayName: Nomadic Lifestyle
     Reward:
-      Execute: /nick PLAYER &bNomad
+      Execute: nick PLAYER &bNomad
 DistanceGliding:
   10000:
     Goal: Fly 10,000 blocks with an elytra.
@@ -37,7 +37,7 @@ Smelting:
     DisplayName: Super Smelter
     Reward:
       Command:
-        Execute: give PLAYER wool 1 5 {display:{Name:Woool,Lore:[Environmentally,friendly,fuel]}}
+        Execute: give PLAYER wool 1 5 {display:{Name:"Woool",Lore:["Environmentally","friendly","fuel"]}}
   50000:
     Goal: Smelt 50,000 items.
     Message: You have smelted 50,000 items. Make sure you are using renewable fuel!
