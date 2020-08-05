@@ -68,9 +68,9 @@ Kills:
   wolf:
     1:
       Goal: Kill a wolf
-      Message: You euthanized an innocent kanine
+      Message: You euthanized an innocent canine
       Name: kills_1_wolf
-      DisplayName: Makeshift Euthinization
+      DisplayName: Makeshift Euthanization
       Reward:
         Execute: give PLAYER skull 1 3 {SkullOwner:"GLaD0S"}
         Execute: say @a &lPLAYER euthinized their faithful compainion faster than any test subject on record. Congratulations.
