@@ -45,7 +45,7 @@ Smelting:
     DisplayName: Super Smelter
     Reward:
       Command:
-        Execute: give PLAYER blaze_rod 1 0 {display:{Name:Spicy,Lore:[Ultra,environmentally,friendly,fuel]}}
+        Execute: give PLAYER blaze_rod 1 0 {display:{Name:"Spicy",Lore:["Ultra","environmentally","friendly","fuel"]}}
 MusicDiscs:
   3:
     Goal: Use 3 different music discs in a jukebox.
